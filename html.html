@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"></link>
+
+</head>
+<body>
+    <div class="container">
+        <nav id="nav">
+            <span data-time="1500" class="minutes-btn">work</span>
+            <span data-time="20" class="minutes-btn">5 MIN</span>
+            <span data-time="900" class="minutes-btn">15 MIN</span>
+            <span class="minutes-input">
+                <form name="customForm" id="custom"> 
+                    <input 
+                    type="text" 
+                    name="minutes" 
+                    id="inputMinute" 
+                    placeholder="(minutter)">
+                </form>
+            </span>
+            <span data-time="1800" class="minutes-btn">Lunch 30</span>
+            <span  data-time="3600"class="minutes-btn">1 time</span>
+            <span  data-time="2700"class="minutes-btn">45 min</span>
+
+         </nav>
+         <div class="timer-container">
+            <div class="timer">
+                <span class="clock">00:00</span>
+                <span class="be-back">be back</span>
+            </div>
+         </div>   
+    </div>
+    <script src="pomodoro.js"></script>
+</body>
+</html>
