@@ -1,14 +1,11 @@
 
 
-// model
 
 const timerDisplay=document.querySelector('.clock');
 const endTime=document.querySelector('.be-back');
 const button=document.querySelectorAll('[data-time]');
 
 let countdown;
-
-// controller
 
 function timer(seconds) {
     //clearInterval før ny timer
